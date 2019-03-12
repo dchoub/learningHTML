@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+<body>
+<h1>Registration</h1>
+<form action="https://www.google.com" method="post">
+    <label for="firstName" > FirstName:</label>
+    <input id = "firstName" name = "firstName" type="text" placeholder="Jhon" required>
+    <label for="LastName" >LastName:</label>
+    <input id = "LastName" name = "LastName"type="text" placeholder="Smith" required>
+    <p></p>
+    <label for="Male" >Male:</label>
+    <input  name = gender id = "Male"type="RADIO">
+    <label for="Female" >Female:</label>
+    <input name = gender id = "Female"type="RADIO">
+    <label for="Other" >Other:</label>
+    <input name = gender id = "Other"type="RADIO">
+    <p></p>
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Email" required>
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="Password" pattern=".{5,10}" required title="5 to 10 character required">
+    <div>
+    <label>Birthday:
+        <select name="Month">
+            <option >Jan</option>
+            <option >feb</option>
+            <option >March</option>
+        </select>
+        <select name="Day" >
+            <option>01</option>
+            <option >02</option>
+            <option>03</option>
+        </select>
+        <select name="YYYY" >
+            <option>1990</option>
+            <option >1991</option>
+            <option>1992</option>
+        </select>
+    </label>
+    </div>
+    <div>
+        <label for="terms">I agree to the terms and condtions</label>
+        <input type="checkbox" id="terms">
+    </div>
+    <p></p>
+    <button>Submit</button>
+
+
+
+</form>
+
+
+</body>
+</html>
